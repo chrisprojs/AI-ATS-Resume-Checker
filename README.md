@@ -4,7 +4,7 @@ Creator: Christian Antonius Anggaresta
 
 An intelligent resume analysis API powered by AI that extracts candidate information from PDF resumes and provides ATS (Applicant Tracking System) compatibility checking. The service can analyze resumes standalone or compare them against job postings to provide relevance scores and improvement feedback.
 
-![AI ATS Resume Checker](documentation/AI ATS Resume Checker.jpg)
+![AI ATS Resume Checker](documentation/ai-ats-resume-checker.jpg)
 
 ## Features
 
@@ -118,7 +118,7 @@ Analyze a PDF resume and optionally compare it against a job posting.
 }
 ```
 
-![Result of Resume Checker](documentation/result of resume checker.png)
+![Result of Resume Checker](documentation/result-of-resume-checker.png)
 
 **Response Fields:**
 - `name`: Candidate name extracted from resume
