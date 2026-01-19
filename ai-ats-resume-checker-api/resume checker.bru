@@ -1,0 +1,28 @@
+meta {
+  name: summarize resume
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8000/summaries/resume
+  body: multipartForm
+  auth: inherit
+}
+
+body:form-urlencoded {
+  : 
+}
+
+body:multipart-form {
+  file: @file(C:\Users\chris\OneDrive\Desktop\Chris File\portofolio and cv\CV 04-01-2026\Christian Antonius Anggaresta_Resume with Photo 04-01-2026.pdf)
+}
+
+body:file {
+  file: @file(C:\Users\chris\OneDrive\Desktop\Chris File\portofolio and cv\CV 04-01-2026\Christian Antonius Anggaresta_Resume with Photo 04-01-2026.pdf) @contentType(application/pdf)
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

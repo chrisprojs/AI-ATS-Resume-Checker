@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ai-ats-resume-checker-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
