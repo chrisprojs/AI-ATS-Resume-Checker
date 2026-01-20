@@ -42,6 +42,9 @@ class ResumeService:
         return self._process_response(response.json())
 
     def _build_payload(self, resume_text: str, job_post: Optional[str]) -> Dict[str, Any]:
+        """
+        Building prompt payload for ATS AI checker
+        """
         include_score = bool(job_post and job_post.strip())
         score_json = """
             "score": float (0.0 to 10.0),
